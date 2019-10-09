@@ -9,5 +9,5 @@ class GuokePipeline(Pipeline):
     def process_item(self,item,spider):
         if spider.name=='guoke':
             print('果壳数据：')
-            print(print(item.data.decode()[:100]))
+            print(item.data)
         return item

@@ -10,13 +10,15 @@ SPIDERS=[
 ]
 
 DOWNLODER_MIDDLEWARES=[
-    'downloder_middleware.DownloderMiddleware'
+    # 'downloder_middleware.DownloderMiddleware'
 ]
 SPIDER_MIDDLEWARES=[
-    'spider_middleware.SpiderMiddleware'
+    # 'spider_middleware.SpiderMiddleware'
 ]
 
 PIPELINE=[
     'pipeline.BaiduPipeline',
     'pipeline.GuokePipeline'
 ]
+
+PROCESSING_NUM=4
