@@ -1,5 +1,7 @@
 如何使用：
-1、运用框架进行爬虫：
+1、下载并安装
+将代码下载至本地，进入文件夹，运行命令python setup.py install
+2、运用框架进行爬虫：
 仿造object_dir文件夹格式，自定义spider,pipeline,middlwares,运行main文件即可爬取
-2、学习框架
+3、学习框架
 框架运行路线：engine作为总调度，整个框架的大致逻辑可以在engine中大致窥探，推荐先看engine，然后在过程中穿插观看request--response--item--setting-spider--spider_middleware--schedule--downloder_middleware--downloder--pipeline--logger

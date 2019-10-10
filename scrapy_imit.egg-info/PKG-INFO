@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: scrapy-imit
+Version: 1.0
+Summary: A spider framewoke like scrapy_redis
+Home-page: https://github.com/LongLinwei/scrapy_imit
+Author: long
+Author-email: 1029130619@qq.com
+License: Apache License v2
+Description: UNKNOWN
+Keywords: spider,scrapy,redisr
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Utilities

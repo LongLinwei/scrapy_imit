@@ -1,0 +1,4 @@
+project_dir
+redis_project_dir
+scrapy_imit
+scrapy_redis_imit
