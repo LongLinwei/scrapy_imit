@@ -1,24 +1,33 @@
 import logging
-DEFAULT_LOG_LEVEL=logging.INFO
-DEFAULT_LOG_FMT='%(asctime)s %(name)s %(filename)s %(funcName)s %(levelname)s<%(lineno)d>%(message)s'
-DEFAULT_LOG_DATEFMT='%Y-%m-%d %H:%M:%S'
-DEFAULT_LOG_FILENAME='log.log'
 
-SPIDERS=[
+#日志设置
+DEFAULT_LOG_LEVEL = logging.INFO  # 日志等级
+DEFAULT_LOG_FMT = '%(asctime)s %(name)s %(filename)s %(funcName)s %(levelname)s<%(lineno)d>%(message)s'  # 日志格式
+DEFAULT_LOG_DATEFMT = '%Y-%m-%d %H:%M:%S'  # 时间格式
+DEFAULT_LOG_FILENAME = 'log.log'  # 日志存放地址
+
+# 爬虫启用
+SPIDERS = [
     'spiders.baiduspider.BaiduSpider',
     'spiders.guoke_spider.GuokeSpider'
 ]
 
-DOWNLODER_MIDDLEWARES=[
+# 下载中间键启用
+DOWNLODER_MIDDLEWARES = [
     # 'downloder_middleware.DownloderMiddleware'
 ]
-SPIDER_MIDDLEWARES=[
+
+# 爬虫中间键启用
+SPIDER_MIDDLEWARES = [
     # 'spider_middleware.SpiderMiddleware'
 ]
 
-PIPELINE=[
+# 管道启用
+PIPELINE = [
     'pipeline.BaiduPipeline',
     'pipeline.GuokePipeline'
 ]
-
-PROCESSING_NUM=4
+#是否启用多线程
+OPEN_PROCESSING=True
+# 线程数量设置
+PROCESSING_NUM = 4
