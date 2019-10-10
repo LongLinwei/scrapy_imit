@@ -39,4 +39,8 @@ REDIS_DB = 0
 REDIS_PASSWD = None
 
 REDIS_QUEUE_NAME = 'queue'
+REDIS_BACKUPQUEUE_NAME='backupqueue'
 REDIS_SET_NAME = 'redis_set'
+
+#请求重试次数
+RETRY_NUM=3

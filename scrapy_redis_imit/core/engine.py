@@ -8,6 +8,7 @@ from scrapy_redis_imit.utils.count import Count
 from scrapy_redis_imit.http.request import Request
 from scrapy_redis_imit.item import Item
 from scrapy_redis_imit.utils.log import logger
+from scrapy_redis_imit.utils.queue import BackupQueue
 from scrapy_redis_imit.config.setting import *
 import time
 import importlib
@@ -25,6 +26,7 @@ class Engine:
         self.downloder_middleware = self.auto_import(DOWNLODER_MIDDLEWARES)
         self.pool = Pool(PROCESSING_NUM)
         self.stop_flag = False
+        self.backupqueue=BackupQueue()
 
 
     def auto_import(self, path, isspider=False):
@@ -56,9 +58,12 @@ class Engine:
         request = self.schedule.get_request()
         if not request:
             return
+        self.backupqueue.put(request)
         for downloder_middleware in self.downloder_middleware:
             request = downloder_middleware.process_request(request)
         resp = self.downloder.get_resp(request)
+        if not resp:
+            return
         resp.meta = request.meta
         for downloder_middleware in self.downloder_middleware:
             resp = downloder_middleware.process_response(resp)
@@ -76,6 +81,7 @@ class Engine:
                 for pipeline in self.pipeline:
                     result = pipeline.process_item(result, spider)
         # self.downloder.total_resp += 1
+        self.backupqueue.pop(request)
         self.count.incr_total_resp()
         # print(self.schedule.total_repeat_request,self.schedule.total_request,self.downloder.total_resp)
 
@@ -87,12 +93,16 @@ class Engine:
 
         logger.info('爬虫开启')
         start_time = time.perf_counter()
-        if OPEN_PROCESSING:
-            self.pool.apply_async(self.start_engine)
-            for i in range(PROCESSING_NUM):
-                self.pool.apply_async(self.request_downloder_parse, callback=self._backfun)
+        if self.backupqueue.llen()==0:
+            if OPEN_PROCESSING:
+                self.pool.apply_async(self.start_engine)
+                for i in range(PROCESSING_NUM):
+                    self.pool.apply_async(self.request_downloder_parse, callback=self._backfun)
+            else:
+                self.start_engine()
         else:
-            self.start_engine()
+            while self.backupqueue.llen():
+                self.backupqueue.rpoplpush()
         while True:
             if OPEN_PROCESSING:
                 time.sleep(0.001)

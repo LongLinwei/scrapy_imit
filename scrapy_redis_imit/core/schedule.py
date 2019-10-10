@@ -2,7 +2,6 @@
 from scrapy_redis_imit.utils.queue import Queue
 from scrapy_redis_imit.utils.set import RedisSet
 from scrapy_redis_imit.utils.log import logger
-from scrapy_redis_imit.utils.count import Count
 from hashlib import sha1
 import w3lib.url
 
@@ -27,7 +26,7 @@ class Schedule:
             self.count.incr_total_repeat_request()
 
     def get_request(self):
-        return self.queue.get(block=False)
+        return self.queue.get()
 
     def is_repeat(self, request):
         instruct = self._gen_instruct(request)

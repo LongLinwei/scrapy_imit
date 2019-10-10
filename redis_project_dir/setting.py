@@ -8,9 +8,9 @@ DEFAULT_LOG_FILENAME = 'log.log'  # 日志存放地址
 
 # 爬虫启用
 SPIDERS = [
-    # 'spiders.baiduspider.BaiduSpider',
-    # 'spiders.guoke_spider.GuokeSpider',
-    'spiders.xinlang.XinlangSpider',
+    'spiders.baiduspider.BaiduSpider',
+    'spiders.guoke_spider.GuokeSpider',
+    # 'spiders.xinlang.XinlangSpider',
 ]
 
 # 下载中间键启用
@@ -25,12 +25,12 @@ SPIDER_MIDDLEWARES = [
 
 # 管道启用
 PIPELINE = [
-    # 'pipeline.BaiduPipeline',
-    # 'pipeline.GuokePipeline'
-    'pipeline.XinlangPipeline'
+    'pipeline.BaiduPipeline',
+    'pipeline.GuokePipeline'
+    # 'pipeline.XinlangPipeline'
 ]
 #是否启用多线程
-OPEN_PROCESSING=False
+OPEN_PROCESSING=True
 # 线程数量设置
 PROCESSING_NUM = 4
 
@@ -41,4 +41,8 @@ REDIS_DB = 0
 REDIS_PASSWD = None
 # redis queue set键名
 REDIS_QUEUE_NAME = 'queue'
+REDIS_BACKUPQUEUE_NAME='backupqueue'
 REDIS_SET_NAME='redis_set'
+
+#请求重试次数
+RETRY_NUM=3

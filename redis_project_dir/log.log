@@ -1061,3 +1061,325 @@
 2019-10-10 15:35:28 root downloder.py get_resp INFO<16>请求https://hq.sinajs.cn/?rn=1570690553263&list=sz300136,sz002600,sz002714,sz300601,sz300433,sh603927,sz002241,sz300379,sz000063,sz300729,sh603933,sh603927,sz300790,sz300772,sh603681,sh603121,sz002962,sz002961,sz002415,sh603927,sz000725,sz002463,sz002230,sz002600,sz002236,sz300014,sh600519,sz300136<200>
 2019-10-10 15:35:38 root downloder.py get_resp INFO<16>请求https://hq.sinajs.cn/?rn=1570690553263&list=sz300136,sz002600,sz002714,sz300601,sz300433,sh603927,sz002241,sz300379,sz000063,sz300729,sh603933,sh603927,sz300790,sz300772,sh603681,sh603121,sz002962,sz002961,sz002415,sh603927,sz000725,sz002463,sz002230,sz002600,sz002236,sz300014,sh600519,sz300136<200>
 2019-10-10 15:35:48 root downloder.py get_resp INFO<16>请求https://hq.sinajs.cn/?rn=1570690553263&list=sz300136,sz002600,sz002714,sz300601,sz300433,sh603927,sz002241,sz300379,sz000063,sz300729,sh603933,sh603927,sz300790,sz300772,sh603681,sh603121,sz002962,sz002961,sz002415,sh603927,sz000725,sz002463,sz002230,sz002600,sz002236,sz300014,sh600519,sz300136<200>
+2019-10-10 18:41:35 root engine.py start INFO<88>爬虫开启
+2019-10-10 18:41:35 root downloder.py get_resp INFO<16>请求https://hq.sinajs.cn/?rn=1570690553263&list=sz300136,sz002600,sz002714,sz300601,sz300433,sh603927,sz002241,sz300379,sz000063,sz300729,sh603933,sh603927,sz300790,sz300772,sh603681,sh603121,sz002962,sz002961,sz002415,sh603927,sz000725,sz002463,sz002230,sz002600,sz002236,sz300014,sh600519,sz300136<200>
+2019-10-10 18:41:45 root downloder.py get_resp INFO<16>请求https://hq.sinajs.cn/?rn=1570690553263&list=sz300136,sz002600,sz002714,sz300601,sz300433,sh603927,sz002241,sz300379,sz000063,sz300729,sh603933,sh603927,sz300790,sz300772,sh603681,sh603121,sz002962,sz002961,sz002415,sh603927,sz000725,sz002463,sz002230,sz002600,sz002236,sz300014,sh600519,sz300136<200>
+2019-10-10 18:42:22 root engine.py start INFO<88>爬虫开启
+2019-10-10 18:42:22 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:42:22 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:42:22 root downloder.py get_resp INFO<16>请求https://www.guokr.com/ask/newest/<200>
+2019-10-10 18:42:22 root downloder.py get_resp INFO<16>请求http://www.baidu.com<200>
+2019-10-10 18:43:13 root engine.py start INFO<88>爬虫开启
+2019-10-10 18:43:13 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:43:13 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:43:13 root downloder.py get_resp INFO<16>请求https://www.guokr.com/ask/newest/<200>
+2019-10-10 18:43:13 root downloder.py get_resp INFO<16>请求http://www.baidu.com<200>
+2019-10-10 18:43:13 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:43:14 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686401/<200>
+2019-10-10 18:43:14 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686397/<200>
+2019-10-10 18:43:14 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686395/<200>
+2019-10-10 18:43:15 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686386/<200>
+2019-10-10 18:43:15 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686327/<200>
+2019-10-10 18:43:16 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686316/<200>
+2019-10-10 18:43:23 root engine.py start INFO<88>爬虫开启
+2019-10-10 18:43:24 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:43:24 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:43:24 root downloder.py get_resp INFO<16>请求http://www.baidu.com<200>
+2019-10-10 18:43:24 root downloder.py get_resp INFO<16>请求https://www.guokr.com/ask/newest/<200>
+2019-10-10 18:43:24 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:43:25 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686401/<200>
+2019-10-10 18:43:25 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686397/<200>
+2019-10-10 18:43:26 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686395/<200>
+2019-10-10 18:43:26 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686386/<200>
+2019-10-10 18:43:26 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686327/<200>
+2019-10-10 18:43:27 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686316/<200>
+2019-10-10 18:43:27 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686313/<200>
+2019-10-10 18:45:22 root engine.py start INFO<88>爬虫开启
+2019-10-10 18:45:22 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:45:22 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:45:22 root schedule.py add_request INFO<25>发现重复请求https://www.guokr.com/ask/newest/
+2019-10-10 18:45:22 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:45:22 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686307/<200>
+2019-10-10 18:45:23 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686274/<200>
+2019-10-10 18:45:23 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686264/<200>
+2019-10-10 18:45:23 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686255/<200>
+2019-10-10 18:45:24 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686250/<200>
+2019-10-10 18:45:24 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686249/<200>
+2019-10-10 18:45:25 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686248/<200>
+2019-10-10 18:45:25 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686234/<200>
+2019-10-10 18:45:25 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686213/<200>
+2019-10-10 18:45:26 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686212/<200>
+2019-10-10 18:45:26 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686211/<200>
+2019-10-10 18:58:56 root engine.py start INFO<89>爬虫开启
+2019-10-10 18:58:56 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:58:56 root schedule.py add_request INFO<25>发现重复请求https://www.guokr.com/ask/newest/
+2019-10-10 18:58:56 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:58:56 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:59:11 root engine.py start INFO<89>爬虫开启
+2019-10-10 18:59:11 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:59:11 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:59:12 root downloder.py get_resp INFO<16>请求http://www.baidu.com<200>
+2019-10-10 18:59:38 root engine.py start INFO<89>爬虫开启
+2019-10-10 18:59:38 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:59:38 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 18:59:38 root downloder.py get_resp INFO<16>请求http://www.baidu.com<200>
+2019-10-10 18:59:38 root downloder.py get_resp INFO<16>请求https://www.guokr.com/ask/newest/<200>
+2019-10-10 18:59:39 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:39 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:39 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:40 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:40 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:41 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:41 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:41 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:42 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:42 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:43 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:43 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:43 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:44 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:44 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:44 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:45 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:45 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:46 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:46 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 18:59:46 root engine.py start INFO<109>爬虫结束，共耗时7.995539396000001秒
+2019-10-10 18:59:46 root engine.py start INFO<113>共发送请求数量：24
+2019-10-10 18:59:46 root engine.py start INFO<114>请求成功数：22
+2019-10-10 18:59:46 root engine.py start INFO<115>重复请求2
+2019-10-10 19:34:42 root engine.py start INFO<89>爬虫开启
+2019-10-10 19:34:42 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 19:34:42 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 19:34:43 root downloder.py get_resp INFO<16>请求http://www.baidu.com<200>
+2019-10-10 19:34:43 root downloder.py get_resp INFO<16>请求https://www.guokr.com/ask/newest/<200>
+2019-10-10 19:34:43 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:44 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:44 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:44 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:45 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:45 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:45 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:46 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:46 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:47 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:47 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:47 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:48 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:48 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:48 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:49 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:49 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:49 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:50 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:50 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:34:50 root engine.py start INFO<109>爬虫结束，共耗时8.276757363000002秒
+2019-10-10 19:34:50 root engine.py start INFO<113>共发送请求数量：24
+2019-10-10 19:34:50 root engine.py start INFO<114>请求成功数：22
+2019-10-10 19:34:50 root engine.py start INFO<115>重复请求2
+2019-10-10 19:38:03 root engine.py start INFO<88>爬虫开启
+2019-10-10 19:38:03 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 19:38:03 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 19:38:03 root downloder.py get_resp INFO<16>请求http://www.baidu.com<200>
+2019-10-10 19:38:03 root downloder.py get_resp INFO<16>请求https://www.guokr.com/ask/newest/<200>
+2019-10-10 19:38:04 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:38:04 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686401/<200>
+2019-10-10 19:38:05 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686397/<200>
+2019-10-10 19:38:05 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686395/<200>
+2019-10-10 19:38:05 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686386/<200>
+2019-10-10 19:38:06 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686327/<200>
+2019-10-10 19:38:06 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686316/<200>
+2019-10-10 19:38:07 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686313/<200>
+2019-10-10 19:38:07 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686308/<200>
+2019-10-10 19:38:07 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686307/<200>
+2019-10-10 19:38:08 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686274/<200>
+2019-10-10 19:38:08 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686264/<200>
+2019-10-10 19:38:08 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686255/<200>
+2019-10-10 19:38:09 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686250/<200>
+2019-10-10 19:38:09 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686249/<200>
+2019-10-10 19:38:10 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686248/<200>
+2019-10-10 19:38:10 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686234/<200>
+2019-10-10 19:38:10 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686213/<200>
+2019-10-10 19:38:11 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686212/<200>
+2019-10-10 19:38:11 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686211/<200>
+2019-10-10 19:38:11 root engine.py start INFO<108>爬虫结束，共耗时8.203951848秒
+2019-10-10 19:38:11 root engine.py start INFO<112>共发送请求数量：24
+2019-10-10 19:38:11 root engine.py start INFO<113>请求成功数：22
+2019-10-10 19:38:11 root engine.py start INFO<114>重复请求2
+2019-10-10 19:41:51 root engine.py start INFO<88>爬虫开启
+2019-10-10 19:41:51 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 19:41:51 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 19:41:51 root downloder.py get_resp INFO<16>请求http://www.baidu.com<200>
+2019-10-10 19:41:51 root downloder.py get_resp INFO<16>请求https://www.guokr.com/ask/newest/<200>
+2019-10-10 19:41:51 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 19:41:52 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686401/<200>
+2019-10-10 19:41:52 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686397/<200>
+2019-10-10 19:41:52 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686395/<200>
+2019-10-10 19:41:53 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686386/<200>
+2019-10-10 19:41:53 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686327/<200>
+2019-10-10 19:41:54 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686316/<200>
+2019-10-10 19:41:54 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686313/<200>
+2019-10-10 19:41:54 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686308/<200>
+2019-10-10 19:41:55 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686307/<200>
+2019-10-10 19:41:55 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686274/<200>
+2019-10-10 19:41:56 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686264/<200>
+2019-10-10 19:41:56 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686255/<200>
+2019-10-10 19:41:56 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686250/<200>
+2019-10-10 19:41:57 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686249/<200>
+2019-10-10 19:41:57 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686248/<200>
+2019-10-10 19:41:57 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686234/<200>
+2019-10-10 19:41:58 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686213/<200>
+2019-10-10 19:41:58 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686212/<200>
+2019-10-10 19:41:59 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686211/<200>
+2019-10-10 19:41:59 root engine.py start INFO<108>爬虫结束，共耗时8.089721253秒
+2019-10-10 19:41:59 root engine.py start INFO<112>共发送请求数量：24
+2019-10-10 19:41:59 root engine.py start INFO<113>请求成功数：22
+2019-10-10 19:41:59 root engine.py start INFO<114>重复请求2
+2019-10-10 20:02:04 root engine.py start INFO<92>爬虫开启
+2019-10-10 20:02:04 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 20:02:04 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 20:02:05 root downloder.py get_resp INFO<16>请求http://www.baidu.com<200>
+2019-10-10 20:02:05 root downloder.py get_resp INFO<16>请求https://www.guokr.com/ask/newest/<200>
+2019-10-10 20:02:06 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 20:02:06 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686401/<200>
+2019-10-10 20:02:07 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686397/<200>
+2019-10-10 20:02:07 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686395/<200>
+2019-10-10 20:02:07 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686386/<200>
+2019-10-10 20:02:08 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686327/<200>
+2019-10-10 20:02:08 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686316/<200>
+2019-10-10 20:02:09 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686313/<200>
+2019-10-10 20:02:09 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686308/<200>
+2019-10-10 20:02:10 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686307/<200>
+2019-10-10 20:02:10 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686274/<200>
+2019-10-10 20:02:10 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686264/<200>
+2019-10-10 20:02:11 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686255/<200>
+2019-10-10 20:02:11 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686250/<200>
+2019-10-10 20:02:12 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686249/<200>
+2019-10-10 20:02:12 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686248/<200>
+2019-10-10 20:02:13 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686234/<200>
+2019-10-10 20:02:13 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686213/<200>
+2019-10-10 20:02:14 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686212/<200>
+2019-10-10 20:02:14 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686211/<200>
+2019-10-10 20:02:14 root engine.py start INFO<116>爬虫结束，共耗时9.941617926秒
+2019-10-10 20:02:14 root engine.py start INFO<120>共发送请求数量：24
+2019-10-10 20:02:14 root engine.py start INFO<121>请求成功数：22
+2019-10-10 20:02:14 root engine.py start INFO<122>重复请求2
+2019-10-10 20:02:26 root engine.py start INFO<92>爬虫开启
+2019-10-10 20:02:26 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 20:02:26 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 20:02:26 root downloder.py get_resp INFO<16>请求http://www.baidu.com<200>
+2019-10-10 20:02:27 root downloder.py get_resp INFO<16>请求https://www.guokr.com/ask/newest/<200>
+2019-10-10 20:02:27 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686417/<200>
+2019-10-10 20:02:28 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686401/<200>
+2019-10-10 20:02:28 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686397/<200>
+2019-10-10 20:02:28 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686395/<200>
+2019-10-10 20:02:29 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686386/<200>
+2019-10-10 20:02:29 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686327/<200>
+2019-10-10 20:02:30 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686316/<200>
+2019-10-10 20:03:17 root engine.py start INFO<92>爬虫开启
+2019-10-10 20:03:18 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686313/<200>
+2019-10-10 20:03:18 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686308/<200>
+2019-10-10 20:03:19 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686307/<200>
+2019-10-10 20:03:19 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686274/<200>
+2019-10-10 20:03:19 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686264/<200>
+2019-10-10 20:03:20 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686255/<200>
+2019-10-10 20:03:20 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686250/<200>
+2019-10-10 20:03:20 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686249/<200>
+2019-10-10 20:03:21 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686248/<200>
+2019-10-10 20:03:21 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686234/<200>
+2019-10-10 20:03:22 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686213/<200>
+2019-10-10 20:03:22 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686212/<200>
+2019-10-10 20:03:22 root downloder.py get_resp INFO<16>请求https://www.guokr.com/question/686211/<200>
+2019-10-10 20:03:22 root engine.py start INFO<116>爬虫结束，共耗时4.748165599秒
+2019-10-10 20:03:22 root engine.py start INFO<120>共发送请求数量：24
+2019-10-10 20:03:22 root engine.py start INFO<121>请求成功数：22
+2019-10-10 20:03:22 root engine.py start INFO<122>重复请求2
+2019-10-10 20:15:53 root engine.py start INFO<94>爬虫开启
+2019-10-10 20:15:53 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 20:15:53 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 20:15:53 root downloder.py get_resp INFO<18>请求http://www.baidu.com成功<200>
+2019-10-10 20:15:53 root downloder.py get_resp INFO<18>请求https://www.guokr.com/ask/newest/成功<200>
+2019-10-10 20:15:54 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686417/成功<200>
+2019-10-10 20:15:54 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686401/成功<200>
+2019-10-10 20:15:55 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686397/成功<200>
+2019-10-10 20:15:55 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686395/成功<200>
+2019-10-10 20:15:55 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686386/成功<200>
+2019-10-10 20:15:56 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686327/成功<200>
+2019-10-10 20:15:56 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686316/成功<200>
+2019-10-10 20:15:57 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686313/成功<200>
+2019-10-10 20:15:57 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686308/成功<200>
+2019-10-10 20:15:57 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686307/成功<200>
+2019-10-10 20:15:58 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686274/成功<200>
+2019-10-10 20:15:58 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686264/成功<200>
+2019-10-10 20:15:59 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686255/成功<200>
+2019-10-10 20:16:04 root engine.py start INFO<94>爬虫开启
+2019-10-10 20:16:04 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686250/成功<200>
+2019-10-10 20:16:04 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686249/成功<200>
+2019-10-10 20:16:05 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686248/成功<200>
+2019-10-10 20:16:05 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686234/成功<200>
+2019-10-10 20:16:05 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686213/成功<200>
+2019-10-10 20:16:06 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686212/成功<200>
+2019-10-10 20:16:06 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686211/成功<200>
+2019-10-10 20:16:06 root engine.py start INFO<118>爬虫结束，共耗时2.661318879秒
+2019-10-10 20:16:06 root engine.py start INFO<122>共发送请求数量：24
+2019-10-10 20:16:06 root engine.py start INFO<123>请求成功数：22
+2019-10-10 20:16:06 root engine.py start INFO<124>重复请求2
+2019-10-10 20:18:01 root engine.py start INFO<94>爬虫开启
+2019-10-10 20:18:01 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 20:18:01 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 20:18:02 root downloder.py get_resp INFO<18>请求https://www.guokr.com/ask/newest/成功<200>
+2019-10-10 20:18:02 root downloder.py get_resp INFO<18>请求http://www.baidu.com成功<200>
+2019-10-10 20:18:02 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686417/成功<200>
+2019-10-10 20:18:03 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686401/成功<200>
+2019-10-10 20:18:03 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686397/成功<200>
+2019-10-10 20:18:03 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686395/成功<200>
+2019-10-10 20:18:04 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686386/成功<200>
+2019-10-10 20:18:04 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686327/成功<200>
+2019-10-10 20:18:05 root downloder.py get_resp INFO<18>请求https://www.guokr.com/question/686316/成功<200>
+2019-10-10 20:19:15 root engine.py start INFO<94>爬虫开启
+2019-10-10 20:19:15 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686313/<200>成功
+2019-10-10 20:19:15 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686308/<200>成功
+2019-10-10 20:19:16 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686307/<200>成功
+2019-10-10 20:19:16 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686274/<200>成功
+2019-10-10 20:19:17 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686264/<200>成功
+2019-10-10 20:19:17 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686255/<200>成功
+2019-10-10 20:19:17 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686250/<200>成功
+2019-10-10 20:19:18 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686249/<200>成功
+2019-10-10 20:19:18 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686248/<200>成功
+2019-10-10 20:19:18 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686234/<200>成功
+2019-10-10 20:19:19 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686213/<200>成功
+2019-10-10 20:19:19 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686212/<200>成功
+2019-10-10 20:19:20 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686211/<200>成功
+2019-10-10 20:19:20 root engine.py start INFO<118>爬虫结束，共耗时4.960768198秒
+2019-10-10 20:19:20 root engine.py start INFO<122>共发送请求数量：24
+2019-10-10 20:19:20 root engine.py start INFO<123>请求成功数：22
+2019-10-10 20:19:20 root engine.py start INFO<124>重复请求2
+2019-10-10 20:19:44 root engine.py start INFO<94>爬虫开启
+2019-10-10 20:19:44 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 20:19:44 root schedule.py add_request INFO<25>发现重复请求http://www.baidu.com
+2019-10-10 20:19:44 root downloder.py get_resp INFO<18>请求 http://www.baidu.com<200>成功
+2019-10-10 20:19:45 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/ask/newest/<200>成功
+2019-10-10 20:19:45 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686395/<200>成功
+2019-10-10 20:19:45 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686401/<200>成功
+2019-10-10 20:19:45 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686397/<200>成功
+2019-10-10 20:19:45 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686417/<200>成功
+2019-10-10 20:19:45 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686327/<200>成功
+2019-10-10 20:19:46 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686386/<200>成功
+2019-10-10 20:19:46 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686316/<200>成功
+2019-10-10 20:19:46 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686313/<200>成功
+2019-10-10 20:19:46 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686274/<200>成功
+2019-10-10 20:19:46 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686307/<200>成功
+2019-10-10 20:19:46 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686308/<200>成功
+2019-10-10 20:19:46 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686264/<200>成功
+2019-10-10 20:19:46 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686255/<200>成功
+2019-10-10 20:19:46 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686250/<200>成功
+2019-10-10 20:19:46 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686249/<200>成功
+2019-10-10 20:19:46 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686248/<200>成功
+2019-10-10 20:19:47 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686212/<200>成功
+2019-10-10 20:19:47 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686234/<200>成功
+2019-10-10 20:19:47 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686211/<200>成功
+2019-10-10 20:19:47 root downloder.py get_resp INFO<18>请求 https://www.guokr.com/question/686213/<200>成功
+2019-10-10 20:19:47 root engine.py start INFO<118>爬虫结束，共耗时2.45249175秒
+2019-10-10 20:19:47 root engine.py start INFO<122>共发送请求数量：24
+2019-10-10 20:19:47 root engine.py start INFO<123>请求成功数：22
+2019-10-10 20:19:47 root engine.py start INFO<124>重复请求2

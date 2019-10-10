@@ -5,7 +5,7 @@ class BaiduPipeline(Pipeline):
     def process_item(self, item, spider):
         if spider.name == 'baidu':
             print('百度数据：')
-            print(item.data.decode()[:100])
+            print(item.data[:100])
         return item
 
 
