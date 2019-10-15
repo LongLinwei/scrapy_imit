@@ -41,6 +41,36 @@ REDIS_PASSWD = None
 REDIS_QUEUE_NAME = 'queue'
 REDIS_BACKUPQUEUE_NAME='backupqueue'
 REDIS_SET_NAME = 'redis_set'
+#爬虫使用代理池
+USE_PROXY=True
+#代理ip相关设置
+
+    # 代理ip爬虫
+PROXIES_SPIDERS = [
+
+]
+PROXIES_PIPELINE=[
+    # 'proxies.proxy_pipeline.ProxyPipeline'
+]
+
+# 代理ip爬前预热开关
+OPEN_PROXIES = True
+#使用异步
+PROXIES_ASYNC=True
+#一次事务提交数量
+SAME_EVENT_NUM=5000
+READY_URL = 'http://www.baidu.com'
+
+# 代理ip db设置
+PROXIES_REDIS_HOST = 'localhost'
+PROXIES_REDIS_PORT = 6379
+PROXIES_REDIS_DB = 1
+PROXIES_REDIS_PASSWD = None
+PROXIES_REDIS_NAME = 'proxies_db'
+MAX_SCORE = 100
+MIN_SCORE = 0
+INIT_SCORE = 10
 
 #请求重试次数
 RETRY_NUM=3
+

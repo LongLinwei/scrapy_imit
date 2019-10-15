@@ -22,3 +22,5 @@ class XinlangPipeline(Pipeline):
             print('新浪数据：')
             print(item.data)
         return item
+
+

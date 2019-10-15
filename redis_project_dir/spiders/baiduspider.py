@@ -9,3 +9,6 @@ class BaiduSpider(Spider):
     def start_request(self):
         for url in self.urls:
             yield Request(url)
+    def parse(self,response):
+        print(response.request.proxies)
+        print(response.request.proxies['http'][7:])
